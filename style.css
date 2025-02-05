@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+#animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347;
+    position: relative;
+    animation: slide 3s infinite alternate;
+}
+@keyframes slide {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+    }
+}
